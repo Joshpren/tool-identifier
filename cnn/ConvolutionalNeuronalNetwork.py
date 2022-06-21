@@ -89,7 +89,11 @@ class ConvolutionalNeuronalNetwork:
 cnn = ConvolutionalNeuronalNetwork(75)
 #cnn.force()
 #cnn.train('C:/Users/joshu/PycharmProjects/tool-identifier/resources/archive/train_data/train_data', 15)
-prediction = cnn.predict("C:/Users/joshu/PycharmProjects/tool-identifier/resources/test/41Eb9hWTgmL._AC_SY355_.jpg")
+prediction = cnn.predict("C:/Users/joshu/PycharmProjects/tool-identifier/resources/test/nws-kraft-kombi-zange-combimax-205mm.jpg")
+print(prediction)
+cnn.resolve_prediction(prediction)
+
+prediction = cnn.predict("C:/Users/joshu/PycharmProjects/tool-identifier/resources/test/Elektriker-Schraubendreher---Schraubenzieher-PH1x80.jpg")
 print(prediction)
 cnn.resolve_prediction(prediction)
 

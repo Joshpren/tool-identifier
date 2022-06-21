@@ -57,7 +57,6 @@ class DataCreator:
         """
         categories = next(os.walk(directory))[1]
         self.__categories = categories
-        print(categories)
         data_set = []
         for category_index in tqdm(range(0, len(categories))):
             category = categories[category_index]

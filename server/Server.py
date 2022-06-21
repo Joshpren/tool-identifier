@@ -1,6 +1,5 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
-cnn = ConvolutionalNeuronalNetwork(75)
 hostName = "localhost"
 serverPort = 8080
 
